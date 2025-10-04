@@ -54,7 +54,7 @@ export default function AboutMe() {
 
             {/* Download CV Button */}
             <a
-              href="/cv.pdf" // replace with your actual CV file
+              href="/Deepanshu_Thakur_Resume.pdf" // replace with your actual CV file
               download
               className="px-6 py-3 font-bold hover:scale-125 transition-all ease-in bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-500 hover:text-black inline-flex items-center gap-2"
             >

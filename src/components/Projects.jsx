@@ -6,7 +6,7 @@ export default function Projects() {
       title: "Old Portfolio Website",
       description:
         "A sleek personal portfolio built with Html, CSS and Javascript and dark mode.",
-      img: "public/DEEPANSHU-Portfolio-10-04-2025_04_04_PM.png",
+      img: "/deep.png",
       demo: "https://deepanshuthakur17.github.io/my-portfolio/",
       github: "https://github.com/yourusername/portfolio",
     },
@@ -14,7 +14,7 @@ export default function Projects() {
       title: "School Website",
       description:
         "A responsive and user-friendly school website built with React, TailwindCSS and Gsap optimized for performance and accessibility.",
-      img: "public/Nalanda-Public-School-Charthawal-10-04-2025_04_00_PM.png",
+      img: "/nps.png",
       demo: "https://nalanda-public-school.vercel.app/",
       github: "https://github.com/yourusername/school-website",
     },
