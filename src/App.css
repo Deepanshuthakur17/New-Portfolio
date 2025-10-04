@@ -1,0 +1,94 @@
+@import "tailwindcss";
+@plugin "daisyui";
+ @plugin "daisyui" {
+   themes:  light --default,  dark --prefersdark;
+ }
+
+.btn-grad {
+  background: linear-gradient(135deg, #ec4899, #f59e0b)!important;
+  color: #fff !important;
+  padding: 0.75rem 2rem !important;
+  font-weight: 600 !important;
+  border-radius: 9999px !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 4px 14px rgba(99, 102, 241, 0.4) !important;
+  display: inline-block !important;
+  text-align: center !important;
+}
+
+.btn-grad:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.5) !important;
+  background: linear-gradient(135deg, #3b82f6, #2563eb) !important;
+}
+
+.btn-grad:active {
+  transform: scale(0.97) !important;
+}
+.btn-grad:hover {
+  transform: translateY(-3px) scale(1.03) !important;
+  filter: brightness(1.1) !important;
+}
+/* ===== 🌟 Gradient Outline Button ===== */
+.btn-outline {
+  border: 2px solid transparent !important;
+  background-image: linear-gradient(white, white),
+    linear-gradient(135deg, #6366f1, #3b82f6) !important;
+  background-origin: border-box !important;
+  background-clip: padding-box, border-box !important;
+  color: #1e3a8a !important;
+  padding: 0.75rem 2rem !important;
+  font-weight: 600 !important;
+  border-radius: 9999px !important;
+  transition: all 0.3s ease !important;
+  display: inline-block !important;
+  text-align: center !important;
+}
+
+.btn-outline:hover {
+  background-image: linear-gradient(135deg, #6366f1, #3b82f6),
+    linear-gradient(135deg, #6366f1, #3b82f6) !important;
+  color: white !important;
+  box-shadow: 0 8px 20px rgba(99, 102, 241, 0.4) !important;
+  transform: translateY(-2px) !important;
+}
+
+.btn-outline:active {
+  transform: scale(0.97) !important;
+}
+/* ===== Hero Moving Gradient Background ===== */
+.hero-bg {
+  background: linear-gradient(270deg, #6366f1, #3b82f6, #ec4899, #f59e0b) !important;
+  background-size: 800% 800%;
+  animation: gradientMove 6s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.nav-btn {
+  padding: 0.5rem 1.5rem!important;
+  border-radius: 9999px!important;
+  font-weight: 500!important;
+  color: white!important;
+  background: linear-gradient(135deg, #6366f1, #3b82f6)!important;
+  transition: all 0.3s ease!important;
+  box-shadow: 0 4px 14px rgba(99, 102, 241, 0.4)!important;
+}
+
+.nav-btn:hover {
+  background: linear-gradient(135deg, #3b82f6, #ec4899, #f59e0b)!important;
+  transform: translateY(-2px)!important;
+  box-shadow: 0 8px 20px rgba(99, 102, 241, 0.5)!important;
+}
+
+
+
