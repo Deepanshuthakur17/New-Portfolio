@@ -14,8 +14,24 @@ export default function Projects() {
       title: "School Website",
       description:
         "A responsive and user-friendly school website built with React, TailwindCSS and Gsap optimized for performance and accessibility.",
-      img: "/nps.png",
+      img: "/Nalanda-Public-School.png",
       demo: "https://nalanda-public-school.vercel.app/",
+      github: "https://github.com/yourusername/school-website",
+    },
+    {
+      title: "K72",
+      description:
+        "A responsive and user-friendly website built with React, TailwindCSS and Gsap optimized for performance and accessibility.",
+      img: "/K72.png",
+      demo: "https://k72-olive.vercel.app/",
+      github: "https://github.com/yourusername/school-website",
+    },
+    {
+      title: "RENTON",
+      description:
+        "A responsive and user-friendly Buy and Rent Prouduct website built with React, TailwindCSS and Gsap optimized for performance and accessibility.",
+      img: "/RENTON.png",
+      demo: "https://renton-rho.vercel.app/",
       github: "https://github.com/yourusername/school-website",
     },
   ];

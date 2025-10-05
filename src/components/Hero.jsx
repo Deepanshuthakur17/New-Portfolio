@@ -7,7 +7,7 @@ export default function Hero() {
     // #7C3BEC
     <section
       id="home"
-      className="w-full h-screen hero-bg bg-cover bg-center relative flex flex-col justify-center items-center text-center"
+      className="w-full overflow-hidden h-screen hero-bg bg-cover bg-center relative flex flex-col justify-center items-center text-center"
       // style={{ backgroundImage: `url('/herobg.png')` }}
     >
       {/* Dark overlay for better text visibility */}
@@ -38,7 +38,7 @@ export default function Hero() {
             Hire Me
           </a>
         </div>
-        <div className="mt-[10vw] px-[20vw]">
+        <div className="mt-[15vw] px-[45vw] lg:mt-[8vw]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
