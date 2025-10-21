@@ -34,7 +34,7 @@ export default function FutureSkills() {
                     {techs.map((tech, index) => (
                         <div
                             key={index}
-                            className="flex flex-col items-center justify-center p-4 rounded-lg shadow-md bg-[#131316] hover:scale-125 transform transition"
+                            className="flex flex-col items-center justify-center p-4 rounded-lg shadow-md bg-[#0B0B0E] hover:scale-125 transform transition"
                         >
                             <img
                                 src={tech.icon}
