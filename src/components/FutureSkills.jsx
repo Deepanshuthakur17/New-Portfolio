@@ -41,7 +41,7 @@ export default function FutureSkills() {
                                 alt={tech.name}
                                 className="w-16 h-16 mb-3"
                             />
-                            <p className="font-medium">{tech.name}</p>
+                            <p className="font-medium uppercase">{tech.name}</p>
                         </div>
                     ))}
                 </div>
