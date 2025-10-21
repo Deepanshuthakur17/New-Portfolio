@@ -38,15 +38,15 @@ export default function AboutMe() {
 
             {/* Key Highlights */}
             <div className="grid sm:grid-cols-3 gap-6 mb-8">
-              <div className="hover:scale-125 transition-all ease-in text-center p-4 rounded-lg shadow-md bg-[#131316]">
+              <div className="lg:hover:scale-125 transition-all ease-in text-center p-4 rounded-lg shadow-md bg-[#131316]">
                 <h4 className="font-semibold text-lg mb-2">Clean Code</h4>
                 <p className="text-sm">Writing maintainable and scalable code</p>
               </div>
-              <div className="hover:scale-125 transition-all ease-in text-center p-4 rounded-lg shadow-md bg-[#131316]">
+              <div className="lg:hover:scale-125 transition-all ease-in text-center p-4 rounded-lg shadow-md bg-[#131316]">
                 <h4 className="font-semibold text-lg mb-2">Modern Design</h4>
                 <p className="text-sm">Creating beautiful user interfaces</p>
               </div>
-              <div className="hover:scale-125 transition-all ease-in text-center p-4 rounded-lg shadow-md bg-[#131316]">
+              <div className="lg:hover:scale-125 transition-all ease-in text-center p-4 rounded-lg shadow-md bg-[#131316]">
                 <h4 className="font-semibold text-lg mb-2">Performance</h4>
                 <p className="text-sm">Optimizing for speed and efficiency</p>
               </div>
