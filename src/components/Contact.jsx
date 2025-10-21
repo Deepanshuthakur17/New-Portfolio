@@ -40,7 +40,7 @@ export default function ContactForm() {
 
   return (
     <div className="py-12 text-center" id="contact">
-      <h2 className="text-4xl font-bold mb-6">Get In Touch</h2>
+      <h2 className="text-4xl font-bold mb-6 uppercase">Get In Touch</h2>
       <p className="text-gray-300 max-w-2xl mx-auto mb-10">
         Have a question, collaboration idea, or just want to say hello? Fill out the form below
         and I’ll get back to you soon!

@@ -24,13 +24,13 @@ export default function AboutMe() {
 
           {/* Right Side - Text */}
           <div>
-            <p className="text-lg leading-relaxed mb-6">
-              I'm a passionate <span className="font-semibold">Front-End Web Developer</span> 
-              with a keen eye for design and a love for creating seamless digital experiences. 
+            <p className="text-lg leading-relaxed mb-6 px-5 py-3 rounded-lg shadow-md bg-[#0B0B0E] text-center">
+              I'm a passionate <span className="font-semibold uppercase text-[#D3FD50]">Front-End Web Developer</span> 
+              &nbsp;with a keen eye for design and a love for creating seamless digital experiences. 
               With expertise in modern web technologies, I transform ideas into elegant, 
               functional websites.
             </p>
-            <p className="text-lg leading-relaxed mb-8">
+            <p className="text-lg leading-relaxed mb-8 px-5 py-3 rounded-lg shadow-md bg-[#0B0B0E] text-center">
               My approach combines clean code with beautiful design, ensuring every project 
               is both visually stunning and technically robust. I'm constantly learning and 
               adapting to new technologies to deliver the best solutions.
