@@ -6,7 +6,7 @@ export default function Projects() {
       title: "Old Portfolio Website-[It's shown my Growth]",
       description:
         "A sleek personal portfolio built with Html, CSS and Javascript and dark mode.",
-      img: "/deep.png",
+      img: "/deep.webp",
       demo: "https://deepanshuthakur17.github.io/my-portfolio/",
       github: "https://github.com/yourusername/portfolio",
     },
@@ -14,7 +14,7 @@ export default function Projects() {
       title: "School Website",
       description:
         "A responsive and user-friendly school website built with React, TailwindCSS and Gsap optimized for performance and accessibility.",
-      img: "/Nalanda-Public-School.png",
+      img: "/Nalanda-Public-School.webp",
       demo: "https://nalanda-public-school.vercel.app/",
       github: "https://github.com/yourusername/school-website",
     },
@@ -22,7 +22,7 @@ export default function Projects() {
       title: "D17-Ai",
       description:
         "D17-AI is a futuristic, voice-powered AI assistant built with React and the Google Gemini API,It listens to your voice, understands your question, and responds with expressive speech — creating an immersive, natural conversation experience.",
-      img: "/d17-ai.png",
+      img: "/d17-ai.webp",
       demo: "https://d17-ai.vercel.app/",
       github: "https://github.com/yourusername/school-website",
     },
@@ -30,7 +30,7 @@ export default function Projects() {
       title: "RENTON",
       description:
         "This project is a rental-marketplace platform (“RentOn”), developed to enable users to list, browse, and rent items or properties seamlessly via a modern, responsive user interface, built with React, TailwindCSS optimized for performance and accessibility.",
-      img: "/RENTON.png",
+      img: "/RENTON.webp",
       demo: "https://renton-rho.vercel.app/",
       github: "https://github.com/yourusername/school-website",
     },
@@ -38,7 +38,7 @@ export default function Projects() {
       title: "Eco-Bite",
       description:
         "EcoBite offers a range of edible cups, spoons, and plates, crafted from natural ingredients, designed to reduce waste and enhance your dining experience.",
-      img: "/Eco-Bite.png",
+      img: "/Eco-Bite.webp",
       demo: "https://eco-bite-beta.vercel.app/",
       github: "https://github.com/yourusername/school-website",
     },

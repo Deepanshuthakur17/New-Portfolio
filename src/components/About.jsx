@@ -16,7 +16,7 @@ export default function AboutMe() {
           {/* Left Side - Profile Image */}
           <div className="flex justify-center lg:-mt-24">
             <img
-              src="/profile.jpg" // replace with your image
+              src="/profile.webp" // replace with your image
               alt="Deepanshu Thakur"
               className="w-64 h-64 hover:scale-125 transition-all ease-in object-cover rounded-2xl shadow-lg border-4 border-blue-600"
             />

@@ -8,7 +8,7 @@ export default function Hero() {
     <section
       id="home"
       className="w-full overflow-hidden h-screen hero-bg bg-cover bg-center relative flex flex-col justify-center items-center text-center"
-      // style={{ backgroundImage: `url('/herobg.png')` }}
+      // style={{ backgroundImage: `url('/herobg.webp')` }}
     >
       {/* Dark overlay for better text visibility */}
       <div className="absolute inset-0 -z-10"></div>

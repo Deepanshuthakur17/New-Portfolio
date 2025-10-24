@@ -40,6 +40,7 @@ export default function FutureSkills() {
                                 src={tech.icon}
                                 alt={tech.name}
                                 className="w-16 h-16 mb-3 object-cover"
+                                loading="lazy"
                             />
                             <p className="font-medium uppercase">{tech.name}</p>
                         </div>
