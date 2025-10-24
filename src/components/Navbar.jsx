@@ -88,7 +88,7 @@ export default function Navbar() {
       >
         <div className="flex justify-between items-center p-4 border-b border-gray-700">
           <h2 className="text-lg font-black uppercase">Menu</h2>
-          <button onClick={() => setMenuOpen(false)}>
+          <button onClick={() => setMenuOpen(false)} aria-label="menu-close">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6 text-white"
