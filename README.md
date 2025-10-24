@@ -64,7 +64,7 @@
 <div align="center">
 <h2 style="background: linear-gradient(90deg,#9333ea,#10b981); -webkit-background-clip: text; color: transparent;">📸 Screenshots</h2>
 <h3>💻 Desktop View</h3>
-<<img src="https://i.ibb.co/nNpMJL3H/Screenshot-20251024-233111-Chrome.jpg" alt="Mobile View" width="295" height="641">
+<img src="https://i.ibb.co/RGp2rTVM/Light-house-test.png" alt="Mobile View" width="295" height="641">
 <h3>📱 Mobile View</h3>
 <img src="https://i.ibb.co/nNpMJL3H/Screenshot-20251024-233111-Chrome.jpg" alt="Mobile Screenshot" width="300">
 </div>
@@ -75,7 +75,7 @@
 <h2 style="background: linear-gradient(90deg,#10b981,#9333ea); -webkit-background-clip: text; color: transparent;">🎯 Highlights</h2>
 <ul align="left">
   <li>Fully responsive across devices</li>
-  <li>Optimized for fast performance (90+ Lighthouse score)</li>
+  <li>Optimized for fast performance (100 Lighthouse score)</li>
   <li>Accessible and keyboard-friendly</li>
   <li>SEO-optimized with Open Graph tags</li>
 </ul>
