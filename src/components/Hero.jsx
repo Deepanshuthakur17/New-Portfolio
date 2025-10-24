@@ -16,7 +16,7 @@ export default function Hero() {
 
       {/* Text content */}
       <div className="relative z-10 px-4 mt-40">
-        <h3 className="text-xl md:text-2xl text-white mb-2">Hi, I'm</h3>
+        <p className="text-xl md:text-2xl text-white mb-2">Hi, I'm</p>
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-2">Deepanshu Thakur</h1>
         <h2 className="text-2xl md:text-3xl text-blue-400 mb-4">Front-End Web Developer</h2>
         <p className="text-gray-200 max-w-xl mx-auto mb-6">
