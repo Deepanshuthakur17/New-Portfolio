@@ -66,7 +66,7 @@
 <h3>💻 Desktop View</h3>
 <img src="https://i.ibb.co/7pCPTyM/desktop-preview.png" alt="Desktop Screenshot" width="700">
 <h3>📱 Mobile View</h3>
-<img src="https://i.ibb.co/8n8tv8d/mobile-preview.png" alt="Mobile Screenshot" width="300">
+<img src="https://i.ibb.co/nNpMJL3H/Screenshot-20251024-233111-Chrome.jpg" alt="Mobile Screenshot" width="300">
 </div>
 
 <hr>
