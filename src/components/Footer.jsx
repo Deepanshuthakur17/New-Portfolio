@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="flex justify-center gap-6 mb-6">
           {/* GitHub */}
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/Deepanshuthakur17"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-500 transition-colors"
@@ -28,7 +28,7 @@ export default function Footer() {
 
           {/* LinkedIn */}
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/deepanshu-thakur-1ab5a4330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-500 transition-colors"
