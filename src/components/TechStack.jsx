@@ -5,14 +5,14 @@ export default function TechStack() {
     { name: "HTML5", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", rating: 5 },
     { name: "CSS3", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg", rating: 5 },
     { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", rating: 4.5 },
-    { name: "TypeScript", icon: "https://cdn-icons-png.flaticon.com/512/5968/5968381.png", rating: 2.5 },
+    { name: "TypeScript", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png", rating: 2.5 },
     { name: "React", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", rating: 4 },
     { name: "Next", icon: "https://icon.icepanel.io/Technology/png-shadow-512/Next.js.png", rating: 3 },
     { name: "TailwindCSS", icon: "https://tailwindcss.com/_next/static/media/tailwindcss-mark.d52e9897.svg", rating: 5 },
     { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg", rating: 4 },
     { name: "GitHub", icon: "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png", rating: 3.5 },
     { name: "Node.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg", rating: 3 },
-    { name: "Gsap", icon: "https://i.postimg.cc/qBskXgRS/GSAP-Docs-Learning-10-04-2025-02-05-PM.png", rating: 2.5 },
+    { name: "Gsap", icon: "https://i.ibb.co/GNNRcMW/GSAP-Docs-Learning-10-24-2025-09-52-PM.png", rating: 2.5 },
     { name: "Daisy UI", icon: "https://img.daisyui.com/images/daisyui/mark-rotating.svg", rating: 4 },
     { name: "C", icon: "https://img.icons8.com/?size=48&id=40670&format=png", rating: 2.5 },
     { name: "vercel", icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-vtiBy89TRfu4e7bC7WJpf1IX1TPuOvyhJw&s", rating: 4 },
@@ -83,7 +83,7 @@ export default function TechStack() {
               key={index}
               className="flex flex-col items-center justify-center p-4 rounded-lg shadow-md bg-[#131316] hover:scale-110 transform transition"
             >
-              <img src={tech.icon} alt={tech.name} className="w-16 h-16 mb-3" />
+              <img src={tech.icon} alt={tech.name} className="w-16 h-16 mb-3 object-contain" />
               <p className="font-medium uppercase">{tech.name}</p>
               {renderStars(tech.rating)}
             </div>

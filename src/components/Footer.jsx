@@ -13,6 +13,7 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-500 transition-colors"
+            aria-label="github.com/Deepanshuthakur17"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -32,6 +33,7 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-500 transition-colors"
+            aria-label="linkedin.com/Deepanshuthakur17"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

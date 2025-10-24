@@ -39,15 +39,15 @@ export default function AboutMe() {
             {/* Key Highlights */}
             <div className="grid sm:grid-cols-3 gap-6 mb-8">
               <div className="lg:hover:scale-125 transition-all ease-in text-center p-4 rounded-lg shadow-md bg-[#131316]">
-                <h4 className="font-semibold text-lg mb-2">Clean Code</h4>
+                <h3 className="font-semibold text-lg mb-2">Clean Code</h3>
                 <p className="text-sm">Writing maintainable and scalable code</p>
               </div>
               <div className="lg:hover:scale-125 transition-all ease-in text-center p-4 rounded-lg shadow-md bg-[#131316]">
-                <h4 className="font-semibold text-lg mb-2">Modern Design</h4>
+                <h3 className="font-semibold text-lg mb-2">Modern Design</h3>
                 <p className="text-sm">Creating beautiful user interfaces</p>
               </div>
               <div className="lg:hover:scale-125 transition-all ease-in text-center p-4 rounded-lg shadow-md bg-[#131316]">
-                <h4 className="font-semibold text-lg mb-2">Performance</h4>
+                <h3 className="font-semibold text-lg mb-2">Performance</h3>
                 <p className="text-sm">Optimizing for speed and efficiency</p>
               </div>
             </div>
@@ -56,7 +56,7 @@ export default function AboutMe() {
             <a
               href="/Deepanshu_Thakur_Resume.pdf" // replace with your actual CV file
               download
-              className="px-6 py-3 font-bold hover:scale-125 transition-all ease-in bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-500 hover:text-black inline-flex items-center gap-2"
+              className="px-4 py-3 lg:px-6 font-bold hover:scale-125 transition-all ease-in bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-500 hover:text-black inline-flex items-center gap-2"
             >
               {/* SVG Download Icon */}
               <svg

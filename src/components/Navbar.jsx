@@ -42,6 +42,7 @@ export default function Navbar() {
         {/* Mobile Menu Button */}
         <button
           className="md:hidden p-2"
+          aria-label="menu-Open"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           {menuOpen ? (
@@ -59,16 +60,16 @@ export default function Navbar() {
           ) : (
             // Menu Icon
             <div className="w-full h-full bg-white nav-btn-toggle">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-8 w-8 text-gray-800"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth={2}
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-8 w-8 text-gray-800"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
             </div>
           )}
         </button>
@@ -82,9 +83,8 @@ export default function Navbar() {
       {/* Mobile Sidebar Menu */}
       <div
         ref={sidebarRef}
-        className={`fixed top-0 right-0 h-full w-2/3 bg-gradient-to-b from-gray-900 to-black text-white shadow-lg transform ${
-          menuOpen ? "translate-x-0" : "translate-x-full"
-        } transition-transform duration-300 ease-in-out md:hidden`}
+        className={`fixed top-0 right-0 h-full w-2/3 bg-gradient-to-b from-gray-900 to-black text-white shadow-lg transform ${menuOpen ? "translate-x-0" : "translate-x-full"
+          } transition-transform duration-300 ease-in-out md:hidden`}
       >
         <div className="flex justify-between items-center p-4 border-b border-gray-700">
           <h2 className="text-lg font-black uppercase">Menu</h2>
@@ -101,11 +101,19 @@ export default function Navbar() {
             </svg>
           </button>
         </div>
-        <ul className="flex flex-col gap-6 mt-8 ml-6 uppercase text-lg font-bold"> <hr/>
-          <li><a href="#home" className="hover:text-blue-400" onClick={() => setMenuOpen(false)}>Home</a></li> <hr />
-          <li><a href="#about" className="hover:text-blue-400" onClick={() => setMenuOpen(false)}>About</a></li><hr />
-          <li><a href="#projects" className="hover:text-blue-400" onClick={() => setMenuOpen(false)}>Projects</a></li><hr />
-          <li><a href="#contact" className="hover:text-blue-400" onClick={() => setMenuOpen(false)}>Contact</a></li><hr />
+        <ul className="flex flex-col uppercase text-lg font-bold"> {/* Removed gap-6, will use border instead */}
+          <li className="py-3 border-b border-gray-300"> {/* Added padding and a bottom border */}
+            <a href="#home" className="hover:text-blue-400" onClick={() => setMenuOpen(false)}>Home</a>
+          </li>
+          <li className="py-3 border-b border-gray-300">
+            <a href="#about" className="hover:text-blue-400" onClick={() => setMenuOpen(false)}>About</a>
+          </li>
+          <li className="py-3 border-b border-gray-300">
+            <a href="#projects" className="hover:text-blue-400" onClick={() => setMenuOpen(false)}>Projects</a>
+          </li>
+          <li className="pt-3"> {/* Use padding top on the last item instead of a bottom border */}
+            <a href="#contact" className="hover:text-blue-400" onClick={() => setMenuOpen(false)}>Contact</a>
+          </li>
         </ul>
       </div>
     </nav>
