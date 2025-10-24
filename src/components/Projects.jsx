@@ -34,6 +34,14 @@ export default function Projects() {
       demo: "https://renton-rho.vercel.app/",
       github: "https://github.com/yourusername/school-website",
     },
+    {
+      title: "Eco-Bite",
+      description:
+        "EcoBite offers a range of edible cups, spoons, and plates, crafted from natural ingredients, designed to reduce waste and enhance your dining experience.",
+      img: "/Eco-Bite.png",
+      demo: "https://eco-bite-beta.vercel.app/",
+      github: "https://github.com/yourusername/school-website",
+    },
   ];
 
   return (
