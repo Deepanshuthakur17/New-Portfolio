@@ -21,7 +21,6 @@
 <ul align="left">
   <li>Responsive and fully dynamic UI</li>
   <li>Modern glassmorphism and gradient design</li>
-  <li>Animated sections using Framer Motion</li>
   <li>Project showcase with live preview links</li>
   <li>Contact form with integrated email API</li>
   <li>Optimized SEO and meta tags</li>
@@ -50,9 +49,9 @@
 <div align="center">
 <h2 style="background: linear-gradient(90deg,#10b981,#06b6d4); -webkit-background-clip: text; color: transparent;">🧠 Project Sections</h2>
 <ul align="left">
-  <li>🏠 <strong>Home:</strong> Hero section with animated intro</li>
+  <li>🏠 <strong>Home:</strong> Hero section with color gradient effect</li>
   <li>👨‍💻 <strong>About:</strong> Brief personal overview and journey</li>
-  <li>🧩 <strong>Skills:</strong> Interactive skill grid with progress bars</li>
+  <li>🧩 <strong>Skills:</strong> Interactive skill grid with 🌟 star rating</li>
   <li>💼 <strong>Projects:</strong> Portfolio cards with links</li>
   <li>📞 <strong>Contact:</strong> Email and social media integration</li>
 </ul>
@@ -119,10 +118,16 @@ Frontend Developer | Creative Technologist<br>
 📧 hello@invsto.com</p>
 
 <p align="center">
-  <a href="https://deepanshu-thakur-portfolio.vercel.app" target="_blank">🌐 Portfolio</a> |
-  <a href="https://github.com/deepanshu-thakur" target="_blank">🐙 GitHub</a> |
-  <a href="https://www.linkedin.com/in/deepanshu-thakur-frontend" target="_blank">💼 LinkedIn</a>
-</p>
+    <a href="https://deepanshu-thakur-portfolio.vercel.app/" target="_blank">
+      <img src="https://skillicons.dev/icons?i=vercel" alt="Vercel" width="48" height="48" style="margin: 0 10px;" />
+    </a>
+    <a href="https://www.linkedin.com/in/deepanshu-thakur-1ab5a4330" target="_blank">
+      <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" width="48" height="48" style="margin: 0 10px;" />
+    </a>
+    <a href="https://github.com/Deepanshuthakur17" target="_blank">
+      <img src="https://skillicons.dev/icons?i=github" alt="GitHub" width="48" height="48" style="margin: 0 10px;" />
+    </a>
+  </p>
 
 <p align="center">
 ⭐ If you like my portfolio, don’t forget to star the repo!<br>
