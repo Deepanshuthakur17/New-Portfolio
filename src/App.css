@@ -89,6 +89,15 @@
   transform: translateY(-2px)!important;
   box-shadow: 0 8px 20px rgba(99, 102, 241, 0.5)!important;
 }
+.nav-btn-toggle {
+  padding: 0.5rem 1.5rem!important;
+  border-radius: 9999px!important;
+  font-weight: 500!important;
+  color: white!important;
+  background: linear-gradient(135deg, #3b82f6, #ec4899, #f59e0b)!important;
+  transition: all 0.3s ease!important;
+  box-shadow: 0 4px 14px rgba(99, 102, 241, 0.4)!important;
+}
 
 
 

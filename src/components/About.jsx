@@ -14,7 +14,7 @@ export default function AboutMe() {
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left Side - Profile Image */}
-          <div className="flex justify-center">
+          <div className="flex justify-center lg:-mt-24">
             <img
               src="/profile.jpg" // replace with your image
               alt="Deepanshu Thakur"

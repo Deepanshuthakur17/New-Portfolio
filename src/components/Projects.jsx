@@ -3,7 +3,7 @@ import React from "react";
 export default function Projects() {
   const projects = [
     {
-      title: "Old Portfolio Website",
+      title: "Old Portfolio Website-[It's shown my Growth]",
       description:
         "A sleek personal portfolio built with Html, CSS and Javascript and dark mode.",
       img: "/deep.png",
@@ -19,17 +19,17 @@ export default function Projects() {
       github: "https://github.com/yourusername/school-website",
     },
     {
-      title: "K72",
+      title: "D17-Ai",
       description:
-        "A responsive and user-friendly website built with React, TailwindCSS and Gsap optimized for performance and accessibility.",
-      img: "/K72.png",
-      demo: "https://k72-olive.vercel.app/",
+        "D17-AI is a futuristic, voice-powered AI assistant built with React and the Google Gemini API,It listens to your voice, understands your question, and responds with expressive speech — creating an immersive, natural conversation experience.",
+      img: "/d17-ai.png",
+      demo: "https://d17-ai.vercel.app/",
       github: "https://github.com/yourusername/school-website",
     },
     {
       title: "RENTON",
       description:
-        "A responsive and user-friendly Buy and Rent Prouduct website built with React, TailwindCSS and Gsap optimized for performance and accessibility.",
+        "This project is a rental-marketplace platform (“RentOn”), developed to enable users to list, browse, and rent items or properties seamlessly via a modern, responsive user interface, built with React, TailwindCSS optimized for performance and accessibility.",
       img: "/RENTON.png",
       demo: "https://renton-rho.vercel.app/",
       github: "https://github.com/yourusername/school-website",
