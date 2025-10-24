@@ -33,9 +33,8 @@
 <div align="center">
 <h2 style="background: linear-gradient(90deg,#9333ea,#06b6d4); -webkit-background-clip: text; color: transparent;">⚙ Tech Stack</h2>
 <ul align="left">
-  <li><strong>Framework:</strong> Next.js (App Router)</li>
-  <li><strong>Library:</strong> React + Framer Motion</li>
-  <li><strong>Styling:</strong> Tailwind CSS + Custom Animations</li>
+  <li><strong>Library:</strong> React + React-Router-dom</li>
+  <li><strong>Styling:</strong> Tailwind CSS + Custom gradient color buttons</li>
   <li><strong>Deployment:</strong> Vercel</li>
 </ul>
 
