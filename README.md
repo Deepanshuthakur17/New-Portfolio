@@ -21,7 +21,6 @@
 <ul align="left">
   <li>Responsive and fully dynamic UI</li>
   <li>Modern glassmorphism and gradient design</li>
-  <li>Animated sections using Framer Motion</li>
   <li>Project showcase with live preview links</li>
   <li>Contact form with integrated email API</li>
   <li>Optimized SEO and meta tags</li>
@@ -33,9 +32,8 @@
 <div align="center">
 <h2 style="background: linear-gradient(90deg,#9333ea,#06b6d4); -webkit-background-clip: text; color: transparent;">⚙ Tech Stack</h2>
 <ul align="left">
-  <li><strong>Framework:</strong> Next.js (App Router)</li>
-  <li><strong>Library:</strong> React + Framer Motion</li>
-  <li><strong>Styling:</strong> Tailwind CSS + Custom Animations</li>
+  <li><strong>Library:</strong> React + React-Router-dom</li>
+  <li><strong>Styling:</strong> Tailwind CSS + Custom gradient color buttons</li>
   <li><strong>Deployment:</strong> Vercel</li>
 </ul>
 
@@ -51,9 +49,9 @@
 <div align="center">
 <h2 style="background: linear-gradient(90deg,#10b981,#06b6d4); -webkit-background-clip: text; color: transparent;">🧠 Project Sections</h2>
 <ul align="left">
-  <li>🏠 <strong>Home:</strong> Hero section with animated intro</li>
+  <li>🏠 <strong>Home:</strong> Hero section with color gradient effect</li>
   <li>👨‍💻 <strong>About:</strong> Brief personal overview and journey</li>
-  <li>🧩 <strong>Skills:</strong> Interactive skill grid with progress bars</li>
+  <li>🧩 <strong>Skills:</strong> Interactive skill grid with 🌟 star rating</li>
   <li>💼 <strong>Projects:</strong> Portfolio cards with links</li>
   <li>📞 <strong>Contact:</strong> Email and social media integration</li>
 </ul>
@@ -64,9 +62,9 @@
 <div align="center">
 <h2 style="background: linear-gradient(90deg,#9333ea,#10b981); -webkit-background-clip: text; color: transparent;">📸 Screenshots</h2>
 <h3>💻 Desktop View</h3>
-<<img src="https://i.ibb.co/nNpMJL3H/Screenshot-20251024-233111-Chrome.jpg" alt="Mobile View" width="295" height="641">
+<img src="https://i.ibb.co/RGp2rTVM/Light-house-test.png" alt="Desktop View" width="1366" height="768">
 <h3>📱 Mobile View</h3>
-<img src="https://i.ibb.co/nNpMJL3H/Screenshot-20251024-233111-Chrome.jpg" alt="Mobile Screenshot" width="300">
+<img src="https://i.ibb.co/nNpMJL3H/Screenshot-20251024-233111-Chrome.jpg" alt="Mobile View" width="300">
 </div>
 
 <hr>
@@ -75,7 +73,7 @@
 <h2 style="background: linear-gradient(90deg,#10b981,#9333ea); -webkit-background-clip: text; color: transparent;">🎯 Highlights</h2>
 <ul align="left">
   <li>Fully responsive across devices</li>
-  <li>Optimized for fast performance (90+ Lighthouse score)</li>
+  <li>Optimized for fast performance (100 Lighthouse score)</li>
   <li>Accessible and keyboard-friendly</li>
   <li>SEO-optimized with Open Graph tags</li>
 </ul>
@@ -120,10 +118,16 @@ Frontend Developer | Creative Technologist<br>
 📧 hello@invsto.com</p>
 
 <p align="center">
-  <a href="https://deepanshu-thakur-portfolio.vercel.app" target="_blank">🌐 Portfolio</a> |
-  <a href="https://github.com/deepanshu-thakur" target="_blank">🐙 GitHub</a> |
-  <a href="https://www.linkedin.com/in/deepanshu-thakur-frontend" target="_blank">💼 LinkedIn</a>
-</p>
+    <a href="https://deepanshu-thakur-portfolio.vercel.app/" target="_blank">
+      <img src="https://skillicons.dev/icons?i=vercel" alt="Vercel" width="48" height="48" style="margin: 0 10px;" />
+    </a>
+    <a href="https://www.linkedin.com/in/deepanshu-thakur-1ab5a4330" target="_blank">
+      <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" width="48" height="48" style="margin: 0 10px;" />
+    </a>
+    <a href="https://github.com/Deepanshuthakur17" target="_blank">
+      <img src="https://skillicons.dev/icons?i=github" alt="GitHub" width="48" height="48" style="margin: 0 10px;" />
+    </a>
+  </p>
 
 <p align="center">
 ⭐ If you like my portfolio, don’t forget to star the repo!<br>
