@@ -73,7 +73,7 @@ export default function AboutMe() {
                   d="M12 4v12m0 0l-4-4m4 4l4-4m-9 8h10a2 2 0 002-2v-2a2 2 0 00-2-2H7a2 2 0 00-2 2v2a2 2 0 002 2z"
                 />
               </svg>
-              Download CV
+              Download Resume
             </a>
           </div>
         </div>
