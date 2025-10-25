@@ -114,8 +114,8 @@ PORTFOLIO/
 <div align="center">
 <h2 style="background: linear-gradient(90deg,#10b981,#9333ea); -webkit-background-clip: text; color: transparent;">💬 Author</h2>
 <p><strong>Deepanshu Thakur</strong><br>
-Frontend Developer | Creative Technologist<br>
-📧 hello@invsto.com</p>
+Frontend Developer
+</p>
 
 <p align="center">
     <a href="https://deepanshu-thakur-portfolio.vercel.app/" target="_blank">
